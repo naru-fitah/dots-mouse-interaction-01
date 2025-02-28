@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Full screen height */
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    max-width: 90vw;  /* Prevent overflow */
+    max-height: 90vh;
+}
+
